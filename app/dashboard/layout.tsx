@@ -1,6 +1,8 @@
 /**** UI that is shared between muitiple dashboard pages ****/
 import SideNav from '@/app/ui/dashboard/sidenav';
  
+export const experimental_ppr = true; // PPR segment config option
+
 export default function Layout({ children }: { children: React.ReactNode }) {
   return (
     <div className="flex h-screen flex-col md:flex-row md:overflow-hidden">
