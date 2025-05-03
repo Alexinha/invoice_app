@@ -18,11 +18,7 @@ export default function Page() {
           <p
             className={`${lusitana.className} text-xl text-gray-800 md:text-3xl md:leading-normal`}
           >
-            <strong>Welcome to Acme.</strong> This is the example for the{" "}
-            <a href="https://nextjs.org/learn/" className="text-purple-300">
-              Next.js Learn Course
-            </a>
-            , brought to you by Vercel.
+            <strong>Welcome to Alexina's Invoice App.</strong> This is the an app built with Next.js.
           </p>
           <Link
             href="/login"
@@ -34,14 +30,14 @@ export default function Page() {
         <div className="flex items-center justify-center p-6 md:w-3/5 md:px-28 md:py-12">
           {/* Add Hero Images Here */}
           <Image
-            src="/hero-desktop.png"
-            width={1000}
-            height={760}
+            src="/hero-new-desktop.png"
+            width={1500}
+            height={850}
             className="hidden md:block"
             alt="Screenshots of the dashboard project showing desktop version"
           />
           <Image
-            src="/hero-mobile.png"
+            src="/hero-new-mobile.png"
             width={560}
             height={620}
             className="block md:hidden"
